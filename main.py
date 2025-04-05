@@ -2,7 +2,7 @@ import time
 import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver import Keys
+from selenium.webdriver.common.keys import Keys
 
 def choose_article_from_search(browser):
     try:
